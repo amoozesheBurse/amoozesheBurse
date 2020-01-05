@@ -1,0 +1,154 @@
+/* ============================================================================= 
+1. Fonts
+============================================================================= */
+/* Google Arabic fonts */
+@import 'https://fonts.googleapis.com/css?family=Tajawal';
+
+/****** Font Awesome icons font ******/
+@import url('fontawesome.min.css'); 
+
+/****** Linearicons icons Font ******/
+@import url('linearicons.min.css'); 
+
+/****** 7 stroke icons font ******/
+@import url('pe-icon-7-stroke.min.css');
+body, 
+.sidebar .list-group-item a, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6,
+span,
+input[type="text"], 
+input[type="password"], 
+input[type="datetime"], 
+input[type="datetime-local"], 
+input[type="date"], 
+input[type="month"], 
+input[type="time"], 
+input[type="week"], 
+input[type="number"], 
+input[type="email"], 
+input[type="url"], 
+input[type="search"], 
+input[type="tel"], 
+input[type="color"], 
+.uneditable-input ,
+.sidebar .list-group-item a
+{
+    font-family: 'Tajawal', sans-serif !important;
+    font-weight: 500;
+}
+body
+{
+    text-align: right;
+}
+body, 
+
+p,
+span
+{
+    line-height: 25px;
+    font-size: 15px;
+}
+body, html {
+    background-color:#222;
+}
+.sidebar .list-group-item a
+{
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.5em;
+    position: relative;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+.sidebar
+{
+    right: 0;
+    margin-right: -250px;
+    transition: margin-right 0.3s;
+}
+.sidebar.show {
+    margin-right: 0px;
+}
+.main.show
+{
+    margin-right: 250px;
+    margin-left: 0;
+}
+#hamburger-menu
+{
+    right: 250px;
+    left:-35px;
+}
+.sidebar .list-group-item
+{
+    padding: .55rem 1.25rem;
+}
+.main {
+    margin-left: 0;
+    margin-right: 0px;
+    transition:  margin-right 0.3s;
+}
+
+.ab-title:after
+{
+    right:10px;
+}
+.center-title::after
+{
+    margin-left: unset;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.blog-card a.btn-d:link
+{
+    right: 15px;
+}
+.image-logo
+{
+    width: 100%;
+}
+.custom-form2
+{
+    text-align: right;
+    direction: rtl;
+}
+p 
+{
+    direction: rtl;
+}
+.carousel-item
+{
+    top: 30px;
+}
+@media (max-width: 1024px)
+{
+.wrapper .main {
+    margin-right: 0;
+}
+.wrapper .sidebar {
+    margin-right: -250px;
+    margin-top: 50px;
+}
+}
+.progress-content-outter
+{
+    direction: rtl;
+}
+.progress-title-holder
+{
+    text-align: right;
+    direction: rtl;
+    margin-right: 0;
+    margin-left: 50px;
+}
+.rtl-progress .progress-number-mark
+{
+    display: none;
+}

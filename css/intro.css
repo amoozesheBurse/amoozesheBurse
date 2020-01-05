@@ -1,0 +1,345 @@
+/*this file just use my intro.html and you don't need it
+ when you want to use theme go to css folder 
+ and delete intro.css beacuse you dont't need it*/
+.intro-page > div#home
+{
+    background: url(../images/Group.jpg) center center no-repeat;
+}
+.go-to-bottom {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    top:80px;
+  }
+  
+  .chevron {
+    position: absolute;
+    width: 28px;
+    height: 8px;
+    opacity: 0;
+    transform: scale3d(0.5, 0.5, 0.5);
+    animation: move 3s ease-out infinite;
+  }
+  
+  .chevron:first-child {
+    animation: move 3s ease-out 1s infinite;
+  }
+  
+  .chevron:nth-child(2) {
+    animation: move 3s ease-out 2s infinite;
+  }
+  
+  .chevron:before,
+  .chevron:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 51%;
+    background: #fff;
+  }
+  
+  .chevron:before {
+    left: 0;
+    transform: skew(0deg, 30deg);
+  }
+  
+  .chevron:after {
+    right: 0;
+    width: 50%;
+    transform: skew(0deg, -30deg);
+  }
+  
+  @keyframes move {
+    25% {
+      opacity: 1;
+  
+    }
+    33% {
+      opacity: 1;
+      transform: translateY(30px);
+    }
+    67% {
+      opacity: 1;
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+    }
+  }
+  
+  .text {
+    display: block;
+    margin-top: 75px;
+    margin-left: -30px;
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    white-space: nowrap;
+    opacity: .25;
+    animation: pulse 2s linear alternate infinite;
+  }
+  
+  @keyframes pulse {
+    to {
+      opacity: 1;
+    }
+  }
+  .section-demoes
+  {
+   
+  }
+  .section-demoes h2 
+  {
+    padding: 30px 0px;
+  }
+  .section-demoes .col-sm-6:first-child
+  {
+    background: #f5f5f5;
+  }
+  .section-demoes .col-sm-6:last-child
+  {
+    background: #222;
+  }
+  .section-demoes .container 
+  {
+    max-width: 100%;
+  }
+  .card-demo
+  {
+    position: relative;
+      overflow: hidden;
+      box-shadow: 0px 5px 40px -8px rgba(0,0,0,.1);
+      padding-bottom: 20px;
+      width: 80%;
+      max-width:400px;
+      margin:30px auto;
+      height: auto;
+      color: #222;
+      background-color: #fff;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      border-radius: 5px;
+  }
+  .image-parent1
+  {
+    height: 300px;
+  
+  }
+  .image-parent-main
+  {
+    height:auto;
+   min-height: 400px;
+   display:block;
+        text-align: center;
+        padding-top: 20px;
+  }
+  .image-parent1
+  {
+    background:url('../images/intro/home.jpg') 0 0 no-repeat;
+     background-size:100%; 
+      -webkit-transition: background-position 3s ease-in-out;
+      -moz-transition: background-position 3s ease-in-out;
+      -ms-transition: background-position 3s ease-in-out;
+      -o-transition: background-position 3s ease-in-out;
+      transition: background-position 3s ease-in-out;
+  }
+  .image-parent2
+  {
+    background:url('../images/intro/dark-home.jpg') 0 0 no-repeat;
+     background-size:100%; 
+      -webkit-transition: background-position 3s ease-in-out;
+      -moz-transition: background-position 3s ease-in-out;
+      -ms-transition: background-position 3s ease-in-out;
+      -o-transition: background-position 3s ease-in-out;
+      transition: background-position 3s ease-in-out;
+  }
+  .image-parent3
+  {
+    background:url('../images/intro/index2.jpg') 0 0 no-repeat;
+     background-size:100%; 
+      -webkit-transition: background-position 3s ease-in-out;
+      -moz-transition: background-position 3s ease-in-out;
+      -ms-transition: background-position 3s ease-in-out;
+      -o-transition: background-position 3s ease-in-out;
+      transition: background-position 3s ease-in-out;
+  }
+  .image-parent4
+  {
+    background:url('../images/intro/dark-index1.jpg') 0 0 no-repeat;
+     background-size:100%; 
+      -webkit-transition: background-position 3s ease-in-out;
+      -moz-transition: background-position 3s ease-in-out;
+      -ms-transition: background-position 3s ease-in-out;
+      -o-transition: background-position 3s ease-in-out;
+      transition: background-position 3s ease-in-out;
+  }
+  
+  .image-parent5
+  {
+    background:url('../images/intro/background-video.jpg') 0 0 no-repeat;
+     background-size:100%; 
+      -webkit-transition: background-position 3s ease-in-out;
+      -moz-transition: background-position 3s ease-in-out;
+      -ms-transition: background-position 3s ease-in-out;
+      -o-transition: background-position 3s ease-in-out;
+      transition: background-position 3s ease-in-out;
+  }
+  .image-parent6
+  {
+    background:url('../images/intro/dark-background-video.jpg') 0 0 no-repeat;
+     background-size:100%; 
+      -webkit-transition: background-position 3s ease-in-out;
+      -moz-transition: background-position 3s ease-in-out;
+      -ms-transition: background-position 3s ease-in-out;
+      -o-transition: background-position 3s ease-in-out;
+      transition: background-position 3s ease-in-out;
+  }
+  .image-parent7
+  {
+    background:url('../images/intro/background-particle1.jpg') 0 0 no-repeat;
+     background-size:100%; 
+      -webkit-transition: background-position 3s ease-in-out;
+      -moz-transition: background-position 3s ease-in-out;
+      -ms-transition: background-position 3s ease-in-out;
+      -o-transition: background-position 3s ease-in-out;
+      transition: background-position 3s ease-in-out;
+  }
+  .image-parent8
+  {
+    background:url('../images/intro/dark-background-particle1.jpg') 0 0 no-repeat;
+     background-size:100%; 
+      -webkit-transition: background-position 3s ease-in-out;
+      -moz-transition: background-position 3s ease-in-out;
+      -ms-transition: background-position 3s ease-in-out;
+      -o-transition: background-position 3s ease-in-out;
+      transition: background-position 3s ease-in-out;
+  }
+  .image-parent9
+  {
+    background:url('../images/intro/background-particle2.jpg') 0 0 no-repeat;
+     background-size:100%; 
+      -webkit-transition: background-position 3s ease-in-out;
+      -moz-transition: background-position 3s ease-in-out;
+      -ms-transition: background-position 3s ease-in-out;
+      -o-transition: background-position 3s ease-in-out;
+      transition: background-position 3s ease-in-out;
+  }
+  .image-parent10
+  {
+    background:url('../images/intro/dark-background-particle2.jpg') 0 0 no-repeat;
+     background-size:100%; 
+      -webkit-transition: background-position 3s ease-in-out;
+      -moz-transition: background-position 3s ease-in-out;
+      -ms-transition: background-position 3s ease-in-out;
+      -o-transition: background-position 3s ease-in-out;
+      transition: background-position 3s ease-in-out;
+  }
+  .image-parent11
+  {
+    background:url('../images/intro/smoke-background.jpg') 0 0 no-repeat;
+     background-size:100%; 
+      -webkit-transition: background-position 3s ease-in-out;
+      -moz-transition: background-position 3s ease-in-out;
+      -ms-transition: background-position 3s ease-in-out;
+      -o-transition: background-position 3s ease-in-out;
+      transition: background-position 3s ease-in-out;
+  }
+  .image-parent12
+  {
+    background:url('../images/intro/dark-smoke-background.jpg') 0 0 no-repeat;
+     background-size:100%; 
+      -webkit-transition: background-position 3s ease-in-out;
+      -moz-transition: background-position 3s ease-in-out;
+      -ms-transition: background-position 3s ease-in-out;
+      -o-transition: background-position 3s ease-in-out;
+      transition: background-position 3s ease-in-out;
+  }
+ 
+    .image-parent13
+  {
+    background:url('../images/intro/Detial-Blog.jpg') 0 0 no-repeat;
+     background-size:100%;
+     -webkit-transition: background-position 3s ease-in-out;
+      -moz-transition: background-position 3s ease-in-out;
+      -ms-transition: background-position 3s ease-in-out;
+      -o-transition: background-position 3s ease-in-out;
+      transition: background-position 3s ease-in-out;
+  }
+  
+  
+  .image-parent15
+  {
+    background:url('../images/intro/rtl.jpg') 0 0 no-repeat;
+     background-size:100%;
+     -webkit-transition: background-position 3s ease-in-out;
+      -moz-transition: background-position 3s ease-in-out;
+      -ms-transition: background-position 3s ease-in-out;
+      -o-transition: background-position 3s ease-in-out;
+      transition: background-position 3s ease-in-out;
+  }
+  .image-parent16
+  {
+    background:url('../images/intro/dark-rtl.jpg') 0 0 no-repeat;
+     background-size:100%;
+     -webkit-transition: background-position 3s ease-in-out;
+      -moz-transition: background-position 3s ease-in-out;
+      -ms-transition: background-position 3s ease-in-out;
+      -o-transition: background-position 3s ease-in-out;
+      transition: background-position 3s ease-in-out;
+  }
+  .image-parent1:hover , 
+  .image-parent2:hover ,
+  .image-parent5:hover ,
+  .image-parent6:hover ,
+  .image-parent7:hover ,
+  .image-parent8:hover ,
+  .image-parent9:hover ,
+  .image-parent10:hover ,
+  .image-parent11:hover ,
+  .image-parent12:hover ,
+  .image-parent15:hover ,
+  .image-parent16:hover
+  {
+    background-position:0px -1450px;
+  }
+  .image-parent4:hover ,
+  .image-parent3:hover 
+  {
+    background-position:0px -1800px; 
+  }
+  .card-demo img 
+  {
+    width: 100%;
+  }
+  .card-demo h3 
+  {
+    margin: 10px auto;
+  }
+  .image-parent-comming-soon1
+  {
+    background:url('../images/intro/comming-soon.jpg') 0 0 no-repeat;
+     background-size:100%;
+  }
+  .image-parent-comming-soon2
+  {
+    background:url('../images/intro/comming-soon2.jpg') 0 0 no-repeat;
+     background-size:100%;
+  }
+   .image-parent14
+  {
+    background:url('../images/intro/Detial-Blog-dark.jpg') 0 0 no-repeat;
+     background-size:100%;
+     -webkit-transition: background-position 3s ease-in-out;
+      -moz-transition: background-position 3s ease-in-out;
+      -ms-transition: background-position 3s ease-in-out;
+      -o-transition: background-position 3s ease-in-out;
+      transition: background-position 3s ease-in-out;
+
+  }
+  
+  
